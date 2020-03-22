@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_border"
+    android:layout_margin="5dp"
+    android:backgroundTint="#FFF3FD">
+
+    <TextView
+        android:id="@+id/tv_word"
+        android:text="WORD"
+        android:textColor="#4460E8"
+        android:textSize="@dimen/search_word_text_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginLeft="@dimen/margin_left_word_search_view"/>
+    <TextView
+        android:id="@+id/tv_word_type"
+        android:text="type"
+        android:textColor="#44C2E8"
+        android:textSize="@dimen/search_word_text_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tv_word"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/tv_word_meaning"
+        android:text="meaning"
+        android:textSize="@dimen/search_word_text_size"
+        android:textColor="#3C2550"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_word"
+        android:layout_marginLeft="@dimen/margin_left_word_search_view"/>
+
+
+</RelativeLayout>

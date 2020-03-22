@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C9F8FC">
+    <TextView
+        android:id="@+id/tv_login_now"
+        android:text="You have to log in to use this feature."
+        android:textSize="20dp"
+        android:textColor="#2849EF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"/>
+    <Button
+        android:id="@+id/login_fragment_btn_login"
+        android:text="LOG IN"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="@dimen/btnMarginLR"
+        android:layout_marginRight="@dimen/btnMarginLR"
+        android:layout_below="@+id/tv_login_now"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MarkActivity"
+    android:background="#99FFFF">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/word_mark_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/word_mark_key"
+        android:text="KEY"
+        android:textSize="@dimen/word_detail_text_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/word_mark_toolbar"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/word_mark_hashtag"
+        android:hint="Hashtag"
+        android:textSize="@dimen/word_detail_text_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/word_mark_key"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/word_mark_button"
+        android:text="MARK"
+        android:textSize="@dimen/word_detail_text_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/word_mark_hashtag"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="@dimen/btnMarginLR"
+        android:layout_marginRight="@dimen/btnMarginLR"/>
+
+</RelativeLayout>
